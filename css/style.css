@@ -421,8 +421,12 @@ header button {
     align-items: center;
 }
 
+.contact-form-wrap .column1 {
+    padding: 0 5rem;
+}
+
 .contact-form-wrap p {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .contact-info-container {
@@ -433,7 +437,7 @@ header button {
 }
 
 .contact-info {
-    padding-left: 15%;
+    margin-top: 10px;
 }
 
 form {
@@ -528,4 +532,25 @@ footer {
     color: white;
     height: 100%;
     height: 100%;
+}
+
+.media {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.media .icons {
+    margin-top: 1rem;
+}
+
+.media .icons a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    transition: color .2s;
+}
+
+.media .icons a:hover {
+    color: white;
 }
