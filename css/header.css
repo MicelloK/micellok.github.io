@@ -1,0 +1,35 @@
+header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+}
+
+header .main-wrap {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+header button {
+    color: var(--text-color);
+    background: none;
+    border: 1px solid white;
+    width: 37px;
+    height: 31px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(70%);
+}
+
+#pl {
+    background-image: url(../assets/pl.jpg);
+}
+
+#en {
+    background-image: url(../assets/en.jpg);
+    background-position: center center;
+}
+

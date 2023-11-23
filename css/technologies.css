@@ -1,0 +1,30 @@
+.technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.tech-icons {
+    margin-top: 25px;
+    width: 80%;
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest-icons {
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

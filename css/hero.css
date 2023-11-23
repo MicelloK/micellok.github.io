@@ -1,0 +1,19 @@
+.hero {
+    background-image: url("../assets/hero1.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-position: left bottom;
+}
+
+.hero h1 {
+    font-family: 'Raleway', serif;;
+    color: rgba(255, 255, 255, 0.431);
+    font-size: 6rem;
+    margin-right: 20vw;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}

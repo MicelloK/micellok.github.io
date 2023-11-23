@@ -1,0 +1,135 @@
+#contact-form {
+    margin-top: 50px;
+    padding: 40px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+}
+
+.contact-form-wrap {
+    width: 100%;
+    display: flex;
+}
+
+.contact-form-wrap .column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-form-wrap .column1 {
+    padding: 0 5rem;
+}
+
+.contact-form-wrap p {
+    margin-top: 1rem;
+}
+
+.contact-info-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+form {
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-column {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    position: relative;
+    margin: 1rem 1rem;
+}
+
+.input {
+    width: 90%;
+    outline: none;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(165, 165, 165);
+    flex-wrap: wrap;
+    font-family: Poppins;
+    transform: .3s;
+}
+
+textarea.input {
+    padding: 0.6rem 1rem;
+    min-height: 120px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgb(134, 134, 134);
+    font-size: 0.9rem;
+    pointer-events: none;
+    z-index: 9999;
+    transform: .5s;
+}
+
+.input-container.focus label {
+    display: none;
+}
+
+.input-container.textarea label {
+    top: 0.8rem;
+    transform: translateY(0);
+}
+
+form .btn {
+    margin-left: 15px;
+    color: white;
+    padding: 0.6rem 1.3rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+form .btn:hover {
+    background-color: rgb(56, 56, 56);;
+}
+
+.media {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.media .icons {
+    margin-top: 2rem;
+}
+
+.media .icons a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    transition: color .2s;
+}
+
+.media .icons a:hover {
+    color: white;
+}
