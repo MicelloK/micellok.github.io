@@ -165,19 +165,16 @@ header button {
 
 .contact-btn a {
     text-decoration: none;
-    color: var(--text-color);
+    color: white;
     padding: 10px 30px;
-    border: 1px solid var(--text-color);
+    background-color: var(--text-color);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 25px;
-    transition:
-        background-color .3s,
-        color .3s;
+    transition: background-color .2s;
 }
 
 .contact-btn a:hover {
-    background-color: var(--text-color);
-    color: white;
-
+    background-color: rgb(56, 56, 56);
 }
 
 
@@ -501,21 +498,18 @@ textarea.input {
 
 form .btn {
     margin-left: 15px;
-    color: var(--text-color);
+    color: white;
     padding: 0.6rem 1.3rem;
     background: none;
-    border: 1px solid rgb(134, 134, 134);
+    border: 1px solid black;
     border-radius: 20px;
-    background-color: white;
+    background-color: black;
     cursor: pointer;
-    transition: 
-        color .3s,
-        background-color .3s;
+    transition: background-color .2s;
 }
 
 form .btn:hover {
-    color: white;
-    background-color: black;
+    background-color: rgb(56, 56, 56);;
 }
 
 
@@ -541,7 +535,7 @@ footer {
 }
 
 .media .icons {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .media .icons a {
