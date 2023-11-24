@@ -25,3 +25,33 @@
 .technology {
     margin-top: 10px;
 }
+
+@media(max-width: 1024px) {
+    .contact-column {
+        flex: 0 0 100%;
+        order: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-content {
+        flex: 0 0 100%;
+        order: 1;
+    }
+
+    #contact-form {
+        order: 2;
+    }
+
+    .main-content {
+        margin-top: 40px;
+    }
+
+    .education {
+        margin-top: 40px;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+} 

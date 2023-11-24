@@ -6,6 +6,10 @@
     margin-top: 60px;
 }
 
+.technologies h2 {
+    text-align: center;
+}
+
 .tech-icons {
     margin-top: 25px;
     width: 80%;

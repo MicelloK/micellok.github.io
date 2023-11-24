@@ -17,3 +17,10 @@
     margin-left: 10vw;
     margin-bottom: 10vh;
 }
+
+@media(max-width: 1024px) {
+    .hero h1 {
+        margin: 0 auto;
+        margin-bottom: 1.5em;
+    }
+} 

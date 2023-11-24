@@ -23,6 +23,10 @@
     padding: 0 5rem;
 }
 
+.contact-form-wrap .column1-tab {
+    display: none;
+}
+
 .contact-form-wrap p {
     margin-top: 1rem;
 }
@@ -59,7 +63,7 @@ form {
 }
 
 .input {
-    width: 90%;
+    width: 89%;
     outline: none;
     padding: 0.6rem 1rem;
     border-radius: 10px;
@@ -132,4 +136,34 @@ form .btn:hover {
 
 .media .icons a:hover {
     color: white;
+}
+
+hr {
+    margin-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.477);
+}
+
+@media(max-width: 1024px) {
+    .contact-form-wrap {
+        flex-direction: column;
+    }
+
+    .contact-form-wrap .column {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .contact-form-wrap .column1 {
+        display: none;
+    }
+
+    .contact-form-wrap .column1-tab {
+        margin: 0;
+        display: flex;
+    }
+
+    .contact-form-wrap .column1-tab hr {
+        margin-top: 30px;
+        width: 100%;
+    }
 }

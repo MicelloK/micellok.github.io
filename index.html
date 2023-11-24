@@ -36,6 +36,18 @@
                 <h1>Hello World!</h1>
             </div>
             <div class="main-wrap">
+                <div class="about-me-tab">
+                    <img id="profile-img" alt="profile picture" src="./assets/profile-pic.jpeg"/>
+                    <div class="about-desc">
+                        <h3>Cześć. Nazywam się Michał 👋</h3>
+                        <p>Jestem studentem informatyki 3 roku na Akademi Górniczo Hutniczej w Krakowie. </p>
+                        <br/>
+                        <p>Jeśli jesteś zainteresowany/-a współpracą, to zapraszam do kontaktu. 
+                            Wszystkie potrzebne informacje znajdziesz po prawej stronie.
+                            &nbsp;<i class="fa-solid fa-right-long"></i></p>
+                        
+                    </div>
+                </div>
                 <div class="content">
                     <div class="main-content">
                         <div class="about-me">
@@ -98,8 +110,10 @@
                             <div class="project">
                                 <div class="project-card" id="proj-1">
                                     <a href="https://github.com/MicelloK/wfc" target="_blank" class="project-source-code">
-                                        <i class="fa-brands fa-github"></i>
-                                        Source code
+                                        <div class="source-btn">
+                                            <i class="fa-brands fa-github"></i>
+                                            Source code
+                                        </div>
                                     </a>
                                 </div>
                                 <div class="project-desc">
@@ -115,8 +129,10 @@
                             <div class="project">
                                 <div class="project-card" id="proj-2">
                                     <a href="https://github.com/MicelloK/asm-ellipse" target="_blank" class="project-source-code">
-                                        <i class="fa-brands fa-github"></i>
-                                        Source code
+                                        <div class="source-btn">
+                                            <i class="fa-brands fa-github"></i>
+                                            Source code
+                                        </div>
                                     </a>
                                 </div>
                                 <div class="project-desc">
@@ -133,8 +149,10 @@
                             <div class="project">
                                 <div class="project-card" id="proj-3">
                                     <a href="https://github.com/MicelloK/heating-transfer-fem" target="_blank" class="project-source-code">
-                                        <i class="fa-brands fa-github"></i>
-                                        Source code
+                                        <div class="source-btn">
+                                            <i class="fa-brands fa-github"></i>
+                                            Source code
+                                        </div>
                                     </a>
                                 </div>
                                 <div class="project-desc">
@@ -150,8 +168,10 @@
                             <div class="project">
                                 <div class="project-card" id="proj-4">
                                     <a href="https://github.com/MicelloK/restaurant-database" target="_blank" class="project-source-code">
-                                        <i class="fa-brands fa-github"></i>
-                                        Source code
+                                        <div class="source-btn">
+                                            <i class="fa-brands fa-github"></i>
+                                            Source code
+                                        </div>
                                     </a>
                                 </div>
                                 <div class="project-desc">
@@ -209,6 +229,24 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="column column1-tab">
+                                <h3>Bądźmy w kontakcie</h3>
+                                <p>Jeśli jesteś zainteresowany/a współpracą, wypełnij formularz poniżej lub znajdź mnie w mediach. </p>
+                                <div class="contact-info-container">
+                                    <div class="contact-info"><i class="fa-solid fa-map-location-dot"></i> Kraków, Polska</div>
+                                    <div class="contact-info"><i class="fa-solid fa-envelope fa-lg"></i> lpcjfsb@gmail.com</div>
+                                </div>
+
+                                <div class="media">
+                                    <h3>Znajdź mnie na:</h3>
+                                    <div class="icons">
+                                        <a href="#"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+                                        <a href="https://github.com/MicelloK" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+                                        <a href="#"><i class="fa-solid fa-envelope fa-xl"></i></a>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
                             <div class="column">
                                 <div class="form-column">
                                     <h3>Formularz</h3>
@@ -228,7 +266,7 @@
                                             <textarea name="message" class="input" required></textarea>
                                             <label for="">Message</label>
                                         </div>
-                                        <input type="submit" value="send" class="btn"/>
+                                        <input type="submit" value="wyślij" class="btn"/>
                                     </form>
                                 </div>
                             </div>
