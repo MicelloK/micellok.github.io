@@ -2,7 +2,7 @@ header {
     position: absolute;
     width: 100%;
     height: 80px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 header .main-wrap {
@@ -12,16 +12,22 @@ header .main-wrap {
     font-size: 1.4rem;
 }
 
+header .main-wrap ul {
+    display: flex;
+    align-items: center;
+}
+
 header button {
     color: var(--text-color);
     background: none;
     border: 1px solid white;
     width: 37px;
     height: 31px;
-    border-radius: 40px;
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     filter:brightness(70%);
+    margin-right: 1rem;
 }
 
 #pl {
@@ -31,5 +37,12 @@ header button {
 #en {
     background-image: url(../assets/en.jpg);
     background-position: center center;
+}
+
+@media(max-width: 480px) {
+    header {
+        background-color: black;
+        filter: opacity(60%);
+    }
 }
 

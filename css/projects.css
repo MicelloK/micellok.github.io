@@ -127,6 +127,60 @@
 
 @media (max-width: 1024px) {
     .project-card {
-        min-width: 8em;
+        min-width: 12em;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .project {
+        flex-direction: column;
+        width: 100%;
+    }
+    .project-card {
+        background-image: none;
+        height: calc(auto+10px);
+        width: 100%;
+        order: 1;
+    }
+    .project-source-code {
+        position: inherit;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .project-desc {
+        margin: 20px 25px;
+    }
+
+    .project-desc h3 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .git {
+        flex-direction: row;
+        padding: 0.5em 0;
+    }
+
+    .technology {
+        text-align: end;
+    }
+}
+
+@media(max-width: 480px) {
+    .projects {
+        margin-top: 30px;
+    }
+
+    .project {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 340px) {
+    .git {
+        padding: 1rem 0;
     }
 }

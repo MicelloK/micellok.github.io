@@ -32,3 +32,44 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 550px) {
+    .tech-icons {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .first-icons {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .rest-icons {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 480px) {
+    .technologies {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 360px) {
+    .first-icons {
+        justify-content: center;
+    }
+
+    .rest-icons {
+        justify-content: center;
+    }
+
+    .tech-icons a {
+        margin: 5px;
+    }
+}

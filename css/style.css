@@ -13,6 +13,7 @@ html {
     scroll-behavior: smooth;
     height: 100%;
     width: 100%;
+    min-width: 300px;
     font-family: "Poppins";
     background-color: var(--primary-color);
 }
@@ -40,3 +41,28 @@ h3 {
     margin: 0 auto;
     padding: 0 100px;
 }
+
+@media(max-width: 768px) {
+    .main-wrap {
+        padding: 0 80px;
+    }
+}
+
+@media(max-width: 630px) {
+    .main-wrap {
+        padding: 0 65px;
+    }
+}
+
+@media(max-width: 530px) {
+    .main-wrap {
+        padding: 0 50px;
+    }
+}
+
+@media(max-width: 480px) {
+    .main-wrap {
+        padding: 0 20px;
+    }
+}
+

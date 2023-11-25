@@ -4,6 +4,10 @@
     padding-top: 80px;
 }
 
+.content h2 {
+    padding: 0 1.2em;
+}
+
 .main-content {
     flex: 0 0 66.66667%;
     min-width: 66.66667%;
@@ -48,10 +52,10 @@
     }
 
     .education {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .content {
         padding-top: 60px;
     }
-} 
+}

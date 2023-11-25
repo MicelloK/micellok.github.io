@@ -24,3 +24,26 @@
         margin-bottom: 1.5em;
     }
 } 
+
+@media(max-width: 768px) {
+    .hero {
+        justify-content: center;
+    }
+
+    .hero h1 {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .hero {
+        background-position: right;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+}
