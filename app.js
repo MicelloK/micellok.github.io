@@ -18,3 +18,8 @@ inputs.forEach((input) => {
     input.addEventListener("focus", focusFunc);
     input.addEventListener("blur", blurFunc);
 });
+
+const toggleThemeBtn = document.getElementById("theme");
+toggleThemeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+})

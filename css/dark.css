@@ -3,6 +3,10 @@ body.dark {
     color: var(--secondary-color-dark);
 }
 
+body.dark .hero h1 {
+    color: rgba(255, 255, 255, 0.431);
+}
+
 body.dark h1, body.dark h2, body.dark h3, body.dark p {
     color: var(--text-color-dark);
 }
