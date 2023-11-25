@@ -8,11 +8,10 @@
     --icons-hover-color: white;
     --contact-btn-hover-color: rgb(56, 56, 56);
 
-    --primary-color-dark: #2C3333;
-    --secondary-color-dark: #395B64;
-    --third-color-dark: #A5C9CA;
+    --primary-color-dark: #1f242a;
+    --secondary-color-dark: #455058;
     --box-shadow-dark: rgb(0, 0, 0, 0.5);
-    --text-color-dark: #E7F6F2;
+    --text-color-dark: rgb(216, 216, 216);
     --link-color-dark: rgb(225, 139, 225);
 }
 

@@ -1,3 +1,9 @@
+body.dark #theme {
+    background-image: url(../assets/moon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body.dark {
     background-color: var(--primary-color-dark);
     color: var(--secondary-color-dark);
