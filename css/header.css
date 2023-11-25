@@ -39,6 +39,15 @@ header button {
     background-position: center center;
 }
 
+#theme {
+    border: none;
+    background-image: url(../assets/dark-mode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31px;
+    height: 31px;
+}
+
 @media(max-width: 480px) {
     header {
         background-color: black;

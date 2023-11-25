@@ -2,6 +2,18 @@
     --primary-color: #F1EFEF;
     --secondary-color: #CCC8AA;
     --text-color: #191717;
+    --box-shadow: rgba(0, 0, 0, 0.1);
+    --link-color: rgb(89, 19, 155);
+    --border-color: black;
+    --icons-hover-color: white;
+    --contact-btn-hover-color: rgb(56, 56, 56);
+
+    --primary-color-dark: #2C3333;
+    --secondary-color-dark: #395B64;
+    --third-color-dark: #A5C9CA;
+    --box-shadow-dark: rgb(0, 0, 0, 0.5);
+    --text-color-dark: #E7F6F2;
+    --link-color-dark: rgb(225, 139, 225);
 }
 
 * {
@@ -15,16 +27,16 @@ html {
     width: 100%;
     min-width: 300px;
     font-family: "Poppins";
-    background-color: var(--primary-color);
-}
-
-h1, h2, h3, p {
-    color: var(--text-color);
 }
 
 body {
     height: 100%;
     width: 100%;
+    background-color: var(--primary-color);
+}
+
+body h1, h2, h3, p {
+    color: var(--text-color);
 }
 
 h2 {
@@ -40,6 +52,10 @@ h3 {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 100px;
+}
+
+.link {
+    color: var(--link-color);
 }
 
 @media(max-width: 768px) {

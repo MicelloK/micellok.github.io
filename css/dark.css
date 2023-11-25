@@ -1,0 +1,61 @@
+body.dark {
+    background-color: var(--primary-color-dark);
+    color: var(--secondary-color-dark);
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark p {
+    color: var(--text-color-dark);
+}
+
+body.dark .project {
+    background-color: var(--primary-color-dark);
+}
+
+body.dark .project {
+    box-shadow: 3px 3px 3px var(--box-shadow-dark);
+}
+
+body.dark .contact {
+    background-color: var(--secondary-color-dark);
+}
+
+body.dark #contact-form {
+    background-color: var(--secondary-color-dark);
+}
+
+body.dark .timeline-component-bg {
+    box-shadow: 0 0 7px var(--box-shadow-dark);
+}
+
+body.dark .timeline-line {
+    background-color: var(--text-color-dark);
+}
+
+body.dark .timeline-point {
+    background-color: var(--text-color-dark);
+}
+
+body.dark .git-link {
+    color: var(--text-color-dark);
+}
+
+body.dark .contact-info-container {
+    color: var(--text-color);
+}
+
+body.dark .link {
+    color: var(--link-color-dark);
+}
+
+body.dark form .btn, 
+body.dark .contact-btn a {
+    transition: 
+        color .2s,
+        background-color .2s;
+}
+
+body.dark form .btn:hover, 
+body.dark .contact-btn a:hover {
+    background-color: white;
+    color: black;
+}
